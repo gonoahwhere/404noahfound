@@ -9,7 +9,7 @@ const buttonHandlers = require("../buttons");
 module.exports = {
   name: Events.InteractionCreate,
   async execute(interaction, bot) {
-    const logger = new Warden('https://discord.com/api/webhooks/1413901413364531311/5SIYnU5GYsR-34BqXoN_aOmv2zutu-YB9EjJWnX7JKjdZAk6xOfxQMXTKFELaA_v4Axo');
+    const logger = new Warden('your servers webhook to log errors goes here');
     logger.setupGlobalHandlers();
 
     try {     
