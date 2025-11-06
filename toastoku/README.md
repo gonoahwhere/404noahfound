@@ -1,4 +1,4 @@
-# ![gonoahwhere](https://raw.githubusercontent.com/gonoahwhere/gonoahwhere/main/assets/images/gnw_ban7.png)
+# ![toastoku](https://raw.githubusercontent.com/gonoahwhere/gonoahwhere/main/assets/images/toastoku_img.png)
 
 <br>
 
