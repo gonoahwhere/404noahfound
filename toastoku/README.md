@@ -135,7 +135,7 @@
 <br>
 
 ### Directory
-- 📁 **bot**: $$\color{#ffc577} \small \mathsf{\text{Contains almost all bot files..}}$$
+- 📁 **bot**: $$\color{#ffc577} \small \mathsf{\text{Contains almost all bot files.}}$$
   - 📁 **assets**: $$\color{#ffc577} \small \mathsf{\text{Contains all static resources.}}$$
     - 📁 **emoji-sets**: $$\color{#ffc577} \small \mathsf{\text{Emoji themes for Sudoku.}}$$
       - 📁 **animals**: $$\color{#ffc577} \small \mathsf{\text{Animal Icons.}}$$
