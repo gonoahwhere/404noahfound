@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background: #111 no-repeat fixed center/cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.noahNav {
+    overflow: hidden;
+    display: block;
+    height: 8vh;
+    width: 100%;
+    background-color: #333;
+}
+
+.noahNav a {
+    display: block;
+    color: #aaa;
+    height: 8vh;
+    width: 150px;
+    padding: 13px 16px;
+    position: relative;
+    text-decoration: none !important;
+    text-align: center;
+    text-shadow: 1px 1px #fff;
+    height: 8vh;
+    line-height: 6vh;
+    font-size: 16px;
+
+}
+
+.noahNav a.active {
+    color: #ff3030;
+    text-shadow: 1px 1px #fff;
+}@media screen and (min-width: 350px) and (max-width: 490px) {
+    .noahNav a {
+        line-height: 3.5vh;
+    }
+}
+
+.noahNav a:hover {
+    color: #ff3030;
+    transition: all 0.5s ease;
+    text-shadow: 1px 1px #fff;
+}
+
+.noahNav .icon {
+    display: none;
+}
+
+.noahNav a::before, .noahNav a:hover:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff3030;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.noahNav a.icon::before, .noahNav a.icon:hover:before {
+    background-color: transparent !important;
+}
+
+.noahNav a:hover::before {
+    transform: scaleX(1);
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.NoahsText1 {
+    height: 200px;
+    width: 400px;
+    margin: auto;
+}
+
+.NoahsText2 {
+    height: 200px;
+    width: 400px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.TextContainer {
+    width: 840px;
+    margin: auto;
+}
+
+.noahGalleryContainer {
+    position: relative;
+}
+
+.noahGalleryMySlides {
+    display: none;
+}
+
+.noahGalleryNumberText {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.noahGalleryPrev, .noahGalleryNext {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #ff3030;
+    font-weight: bold;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    text-shadow: 1px 1px #000;
+}
+
+.noahGalleryNext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.noahGalleryPrev:hover, .noahGalleryNext:hover {
+    background-color: rgba(0,0,0,0.8);
+    color:#ff3030;
+    text-shadow: 1px 1px #fff;
+}
+
+.noahGalleryCaptionContainer {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    padding-top: 6px;
+}
+
+.noahGalleryRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.noahGalleryColumn {
+    float: left;
+    width: 16.66%;
+}
+
+.noahGalleryDemo {
+    opacity: 0.6;
+} 
+
+.noahGalleryCursor {
+    cursor: pointer;
+}
+
+.noahGalleryActive, .noahGalleryDemo:hover {
+    opacity: 1;
+}
+
+.noahGalleryResize {
+    max-width: 200vh;
+    min-width: 70vh;
+    position: relative;
+}
+
+.noahProductsRow {
+    margin: 0 0 -5px;
+}
+
+.noahProductsRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.noahProductsColumn {
+    float: left;
+    padding: 0 10px;
+}
+
+.noahProductsColumn h3 {
+    border-radius: 5px;
+    border-color: #999;
+    border-style: solid;
+    text-align: center;
+}
+
+.noahProductsCard {
+    box-shadow: 0 4px 8px 0 #ff3030;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.noahProductsCard button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #e02b2b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.noahProductsCard button:hover {
+    opacity: 0.7
+}
+
+.noahProductsContains {
+    position: relative;
+    width: 100%;
+}
+
+.noahProductsImages {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.noahProductsCenter {
+    margin-left: 30%;
+}
+
+.noahProductsImagesPopUp img {
+    margin: auto;
+}
+
+.noahProductsImagesPop {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.noahProductsImagesPop:target {
+    display: block;
+}
+
+.noahProductsImagesPop span {
+    display: block;
+    width: 30%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.noahContactContainer {
+    max-width: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#noahContactContact input[type="text"],
+#noahContactContact input[type="email"],
+#noahContactContact input[type="tel"],
+#noahContactContact input[type="url"],
+#noahContactContact textarea,
+#noahContactContact button[type="submit"] {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#noahContactContact {
+    background: #f9f9f9;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#noahContactContact h3 {
+    color: #69010d;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#noahContactContact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    color: #333
+}
+
+.noahContactContainer fieldset {
+    border: medium none !important;
+    width: 100%;
+    padding: 0;
+    min-width: 100%;
+    margin: 0 0 10px;
+}
+
+#noahContactContact input[type="text"],
+#noahContactContact input[type="email"],
+#noahContactContact input[type="tel"],
+#noahContactContact input[type="url"],
+#noahContactContact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#noahContactContact input[type="text"]:hover,
+#noahContactContact input[type="email"]:hover,
+#noahContactContact input[type="tel"]:hover,
+#noahContactContact input[type="url"]:hover,
+#noahContactContact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#noahContactContact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#noahContactContact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #fa223d;
+    color: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#noahContactContact button[type="submit"]:hover {
+    background: #69010d;
+    -webkit-transition: background 0,3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+#noahContactContact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.5);
+}
+
+#noahContactContact input:focus, #noahContactContact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888
+}
+
+:-moz-placeholder {
+    color: #888
+}
+
+::-moz-placeholder {
+    color: #888
+}
+
+:-ms-input-placeholder {
+    color: #888
+}
+
+.noahContactCenter {
+    margin-left: 40%;
+}
+
+.noahBasketColumn textarea {
+    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.noahBasketColumn textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+.noahBasketColumn textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.noahBasketColumn textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+.noahBasketColumn textarea {
+    max-width: 100%;
+    resize: none;
+}
+
+.noahBasketColumn h3 {
+    margin-bottom: 5px;
+}
+
+.noahBasketColumn {
+    max-width: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: #ff3030 solid 1.5px;
+}
+
+.noahBasketProduct {
+    max-width: 400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: #ff3030 solid 1.5px;
+}
+
+.noahBasketProduct p {
+    margin-left: 15px;
+}
+
+.noahBasketProductText p {
+    text-align: left;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.noahBasketProductInfo div {
+    text-align: left;
+    border: white solid 1px;
+}
+
+.noahBasketProductInfo img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.basket {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .noahProductsColumn {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        padding-left: none;
+        padding-right: none;
+    }
+}
