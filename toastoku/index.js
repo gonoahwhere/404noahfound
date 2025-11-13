@@ -1,12 +1,3 @@
-/*
-=========================================================
-
-                SUDOKU BOT MANAGEMENT
-        "All code below is for your sudoku bot."
-             
-=========================================================
-*/
-
 require('events').defaultMaxListeners = 150;
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const fs = require('fs');
