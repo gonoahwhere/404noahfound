@@ -23,9 +23,9 @@
 <br>
 
 ### Directory
-- **v1**:
+- 📁 **v1**:
   - 📄 `main.cpp`: $$\color{#ff55ff} \small \mathsf{\text{Initial version with basic game logic.}}$$
-- **v2**:
+- 📁 **v2**:
   - 📄 `createGrid.cpp`: $$\color{#ff55ff} \small \mathsf{\text{Generates the Noughts and Crosses grid.}}$$
   - 📄 `errorChecking.cpp`: $$\color{#ff55ff} \small \mathsf{\text{Handles errors such as invalid moves.}}$$
   - 📄 `globals.cpp`: $$\color{#ff55ff} \small \mathsf{\text{Where all variables are defined.}}$$
