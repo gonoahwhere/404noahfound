@@ -12,7 +12,7 @@
 <br>
 
 ### Features
-- 🎮 **Modes**: $$\color{#ffc577} \small \mathsf{\text{Complete puzzles by yourself or with friends in real-time Sudoku games.}}$$
+- 🎮 **Modes**: $$\color{#ffc577} \small \mathsf{\text{Complete puzzles by yourself offline.}}$$
 - 🎨 **Themes**: $$\color{#ffc577} \small \mathsf{\text{Play with numbers or any 1 of the 5 emoji themes.}}$$
 - 📊 **Stats**: $$\color{#ffc577} \small \mathsf{\text{Currently only displays theme and difficulty.}}$$
 
