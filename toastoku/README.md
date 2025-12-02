@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Created-15th_June_2025-4259ed" alt="Created Project" />
   <img src="https://img.shields.io/badge/- JavaScript-ed4242?logo=javascript&logoColor=white&labelColor=grey" alt="Language" />
   <img src="https://img.shields.io/badge/- MongoDB-4259ed?logo=mongodb&logoColor=white&labelColor=grey" alt="MongoDB">
+  <img src="https://img.shields.io/badge/- Discord Bot-ed4242?logo=discord&logoColor=white&labelColor=grey" alt="Type of App" />
 </div>
 
 <br>
