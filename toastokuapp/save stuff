@@ -1,0 +1,10 @@
+- theme
+- difficulty
+- stats:
+    - completed games
+    - how many times numbers have been entered
+    - how many notes have been entered
+- game progress:
+    - if game hasnt ended, allows continuation
+        - notes
+        - unfinished state

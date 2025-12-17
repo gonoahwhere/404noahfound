@@ -8,7 +8,7 @@ import config
 
 # Creates window
 root = tk.Tk()
-root.title("Toastoku Desktop App")
+root.title("Toastoku Sudoku App")
 
 # Allows window to be full screen with title and close buttons visible
 root.state("zoomed")
